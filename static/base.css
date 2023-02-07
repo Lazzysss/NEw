@@ -1,0 +1,552 @@
+body {
+    background: white;
+	font-family: monospace;
+	padding: 0;
+    margin: 0;
+}
+
+.form {
+    color: black;
+    margin: 30px;
+    padding: 30px;
+}
+
+header {
+	background: black;
+}
+
+.Voiti {
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    text-transform: none;
+}
+
+.Voiti:hover {
+    transition: 0.5s;
+    background-color: skyblue;
+    color: gray;
+}
+
+.k {
+    text-align: center;
+}
+
+.ul {
+    width: 98%;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    text-align: right;
+    font-size: 17px;
+}
+
+.h3 {
+    padding-left: 20px;
+}
+
+
+
+.li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.a:hover {
+    color: purple;
+    transition: 0.5s;
+}
+
+.a:not(:hover) {
+  transition: 0.5s;
+}
+
+.a:hover, .a.on1{
+    color: purple;
+    transition: 0.5s;
+}
+
+.quote1 {
+    padding: 20px;
+    margin: 20px;
+}
+
+#footer {
+  padding: 25px;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:97%;	
+  color: white;
+  background: black;
+  text-align: center;
+}
+
+.formContact {
+    position: absolute;
+    left: 35%;
+    bottom: 40%;
+}
+
+.buttonSubmit {
+    color: white;
+    background: limegreen;
+    border: none;
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.buttonSubmit:hover{
+    transition: 0.5s;
+    color: white;
+    background: green;
+}
+
+.contact {
+    position: absolute;
+    padding: 10px;
+    left: 64.25%;
+    bottom: 70%;
+    color: white;
+    background: black;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+span {
+    color: white;
+}
+
+.newslink {
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: purple;
+    font-size: 20px;
+}
+
+.newslink:hover {
+    transition: 0.5s;
+    color: darkcyan;
+}
+
+.h2pon {
+    right: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.back {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    left: 515px;
+    top: 84%;
+}
+
+.back:hover {
+    transition: 0.5s;
+    color: limegreen;
+}
+
+.contentper {
+    position: absolute;
+    top: 35%;
+    left: 34%;
+}
+
+.sign-up {
+    color: white;
+}
+
+.wrapperLogin {
+    padding-left: 325px;
+    margin-left: 325px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.register:link, .register:visited {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  transition: 0.5s;
+  text-align: center;
+  text-decoration: none;
+  font-family: monospace;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.register:hover{
+  background-color: limegreen;
+  transition: 0.5s;
+  color: white;
+}
+
+.register1:link, .register1:visited {
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: monospace;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.register1:hover{
+  transition: 0.5s;
+  background-color: limegreen;
+  color: white;
+}
+
+.formochka {
+    top: 55%;
+    color: black;
+    position: absolute;
+}
+
+.sign-up:link, .sign-up:visited {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: monospace;
+  display: inline-block;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.sign-up:hover{
+  background-color: skyblue;
+  transition: 0.5s;
+  color: white;
+}
+
+.sign-up1:hover{
+  background-color: skyblue;
+  transition: 0.5s;
+  color: white;
+}
+
+.leave {
+  background-color: white;
+  color: black;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: monospace;
+  display: inline-block;
+  border-radius: 15px;    
+  transition: 0.5s;
+
+
+}
+
+.leave:hover{
+  transition: 0.5s;
+  background-color: skyblue;
+  color: white;
+}
+
+.forms {
+    padding: 5%;
+    margin: 5%;
+    margin-left: 30%;
+}
+
+.submitt {
+    color: white;
+    border: none;
+    background-color: skyblue;
+    border-radius: 10px;
+    transition: 0.2s;
+    padding: 6px;
+}
+
+.submitt:hover {
+    color: gold;
+    background-color: black;
+    transition: 0.2s;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav {
+  height: 70px;
+}
+
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: flex;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span
+{
+  display: flex;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 5px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-3px, -1px);
+  background: #36383F;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 150px;
+  height: 420px;
+  border-radius: 0px 0px 10px 0px;
+  box-shadow: 0 0 10px #85888C;
+  margin: -50px 0 0 -50px;
+  padding: 60px;
+  padding-top: 130px;
+  background-color: #F5F6FA;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu .Li1
+{
+  padding: 15px 0;
+  transition-delay: 2s;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+.project {
+    font-family: monospace;
+    width: 500px;
+    height: 500px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 510px;
+    margin-top: 50px;
+}
+
+.project .description {
+    font-family: monospace;
+    font-size: 9px;
+    margin: 15px;
+    padding-top: 300px;
+    width: 90%;
+}
+
+.project .imageDox {
+    position: absolute;
+    left: 515px;
+    top: 100px;
+    border-radius: 20px;
+    width: 490px;
+    height: 280px;
+}
+
+.li1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.a1 {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.a1:hover {
+    color: purple;
+    transition: 0.5s;
+}
+
+.a1:not(:hover) {
+  transition: 0.5s;
+}
+
+.a1:hover, .a.on1{
+    color: purple;
+    transition: 0.5s;
+}
+
+.box {
+    position: absolute;
+    left: 37%;
+    top: 15%;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    background-color: lightgray;
+}
+
+.call {
+    position: absolute;
+    top: 60%;
+    border-radius: 5px;
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    background-color: limegreen;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.call:hover{
+    background-color: black;
+    color: darkred;
+    transition: 0.5s;    
+}
+
+@media only screen and (max-width: 768px) {
+
+    #footer {
+        padding-left: 10px;
+    }
+
+    .project {
+        margin-left: 6px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .project .description {
+        padding-top: 230px;
+    }
+
+    .back {
+        left: 10px;
+        padding: 10px;
+        width: 90px;
+        height: 30px;
+        font-size: 25px;
+        border-radius: 10px;
+        color: white;
+        text-transform: none;
+        background-color: black;
+        text-align: center;
+        top: 500px;
+    }
+
+    .back:hover {
+        color: white;
+        background-color: limegreen;
+    }
+
+    .project .imageDox {
+        left: 10px;
+        width: 390px;
+        height: 220px;
+
+    }    
+
+    .box {
+        left: 8%;
+    }
+
+    .contentper {
+        position: absolute;
+        width: 70%;
+        left: 20%;
+    }
+
+    .a {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+   .a1 {
+    display: none;
+   } 
+
+   .li1 {
+    display: none;
+   }
+
+
+}

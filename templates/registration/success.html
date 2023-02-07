@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	User registration success
+{% endblock %}
+
+{% block content %}
+	<h1 class="k">Вы успешно зарегистрировались!<br>Для потверждения войдите в аккаунт!</h1>
+	<h3>
+		<a class="Voiti" href="{% url 'login' %}?next=/"><h1><br>Войти в аккаунт</h1></a>
+	</h3>
+{% endblock content %}

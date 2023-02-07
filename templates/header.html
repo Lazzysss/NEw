@@ -1,0 +1,66 @@
+{% load static %}
+
+			<header>
+			    <div id="menuToggle">
+			        <input type="checkbox" />
+			            <span></span>
+			            <span></span>
+			            <span></span>
+			        <ul id="menu">
+					    <div class="registration">
+							{% if user.is_authenticated %}
+								 <h2 class="username">Username: {{ user.username }}</h2>
+								<a class="leave" href="{% url 'logout' %}?next=/">Выйти с аккаунта</a>
+							{% else %}
+								<a class="sign-up" href="{% url 'login' %}?next=/">Войти</a>
+								<br>	
+								<br>	
+								<a class="register" href="{% url 'register' %}">Зарегистрироваться</a>	
+							{% endif %}	
+						</div>
+							<li class="li1">
+								<a class="a1" href="/">
+									Главная
+								</a>
+							</li>
+					<li class="li1">
+						<a class="a1" href="/contact">
+							Контакты
+						</a>
+					</li>
+					<li class="li1">
+						<a class="a1" href="/quote/show">
+							Посмотреть новости
+						</a>
+					</li>	
+
+
+			        </ul>
+			    </div>
+			</header>
+
+
+
+
+	<header id="header">
+			<nav id="nav">
+				<ul class="ul">
+							<li class="li">
+								<a class="a" href="/">
+									Главная
+								</a>
+							</li>
+					<li class="li">
+						<a class="a" href="/contact">
+							Контакты
+						</a>
+					</li>
+					<li class="li">
+						<a class="a" href="/quote/show">
+							Посмотреть новости
+						</a>
+					</li>	
+				<ul>
+			</nav>
+	</header>
+</div>
